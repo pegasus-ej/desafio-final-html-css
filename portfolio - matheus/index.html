@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portfólio Matheus</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Matheus Druski</h1>
+            <p>Desenvolvedor em formação</p>
+        </section>
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Meu nome é Matheus Druski, tenho 19 anos, no momento estou cursando Ciência da Computação.</p><br>
+            <p>Tenho muita vontade de aprender e crescer profissionalmente. No momento ainda não tenho experiência profissional, mas estou sempre buscando novos desafios e oportunidades para me desenvolver.</p>
+        </section>
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Python</li>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>Inglês (B2)</li>
+                <li>Espanhol (A2)</li>
+            </ul>
+        </section>
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <div class="div_projetos">
+                <article>
+                    <img src="images/projeto1.jpg" alt="Projeto de site com HTML e CSS">
+                    <h3>Projeto de site com HTML e CSS</h3>
+                    <p>Esse foi um projeto pessoal que desenvolvi para praticar minhas habilidades em HTML e CSS durante a capacitação da empresa junior <strong>Pegasus</strong> </p>
+                    <a href="https://github.com/matheus-druski/capacitacao-html-css/tree/matheus">Ver detalhes</a>
+                </article>
+            </div>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <form>
+                <div class= "nome_form">
+                    <label for="nome-completo">Nome:</label>
+                    <input type="text" id="nome-completo" name="nome" placeholder="Digite seu nome aqui...(min: 3 caracteres)" minlength="3" required>
+                </div>
+                <div class= "email_form">
+                    <label for="email-contato">Email:</label>
+                    <input type="email" id="email-contato" name="email" placeholder="email@example.com" required>
+                </div>
+                <div class= "mensagem_form">
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem" rows="4" minlength="10" maxlength="1000" placeholder="Digite sua mensagem aqui...(min: 10 caracteres, max:1000 caracteres)" required></textarea>
+                </div>
+                    <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="conteudo_rodape">
+            <p>&copy; 2026 Matheus Druski. Todos os direitos reservados.</p>
+            <nav class="links_rodape">
+                <a href="https://github.com/matheus-druski" target="_blank" rel="noopener noreferrer">Meu perfil no GitHub</a>
+                <a href="https://www.linkedin.com/in/matheus-druski-24342934b/" target="_blank" rel="noopener noreferrer">Meu perfil no LinkedIn</a>
+            </nav>
+        </div>
+    </footer>
+
+</body>
+</html>
