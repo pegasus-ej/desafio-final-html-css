@@ -9,7 +9,7 @@
         justify-content: flex-end;
         gap: 30px;
     }
-    home {
+    #home {
         min-height: 70vh;
         gap: 30px;
     }
@@ -24,8 +24,10 @@
         max-width: 600px;
     }
     .div_projetos {
-        grid-template-columns: repeat(2, 1fr);
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
         gap: 30px;
+        justify-content: center;
     }
     article img {
         height: 250px;
