@@ -45,10 +45,45 @@ header nav ul li a {
     font-weight: 500;
 }
 #home {
+    gap: 20px;
+    min-height: 60vh; 
+    background-color: var(--cor-de-fundo);
     display: flex;
-    padding: 80px 0;
-    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    flex-direction: column;
+}
+#home h1 {
+    font-size: 2.5rem;
+    color: var(--cor-do-texto);
+    margin-bottom: 10px;
+    line-height: 1.1;
+    margin: 0
+}
+#home p {
+    font-size: 1.2rem;
+    color: var(--cor-do-texto);
+    max-width: 300px;
+    font-weight: 300;
+}
+.btn-banner {
+    display: inline-block;
+    background-color: var(--cor-secundaria);
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
+}
+
+.btn-banner:hover {
+    background-color: var(--cor-primaria);
+    transform: translateY(-3px);
 }
 section {
     padding: 60px 20px;
@@ -104,7 +139,8 @@ article img {
     object-fit: cover;
     width: 100%;
     margin-bottom: 15px;
-    border-radius: 5px
+    border-radius: 8px;
+    display: block;
 }
 form {
     display: flex;
@@ -152,4 +188,7 @@ footer {
 .links_rodape a {
     color: var(--cor-secundaria);
     text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
 }

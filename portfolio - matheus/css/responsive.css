@@ -10,17 +10,25 @@
         gap: 30px;
     }
     home {
-        min-height: 60vh;
+        min-height: 70vh;
+        gap: 30px;
     }
     #home h1 {
-        font-size: 3rem;
+        font-size: 4.5rem;
     }
     section {
         padding: 80px 10%;
     }
+    #home p {
+        font-size: 1.5rem;
+        max-width: 600px;
+    }
     .div_projetos {
         grid-template-columns: repeat(2, 1fr);
         gap: 30px;
+    }
+    article img {
+        height: 250px;
     }
     form {
         max-width: 600px;
