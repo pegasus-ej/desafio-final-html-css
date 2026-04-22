@@ -1,0 +1,51 @@
+@media (min-width: 768px){
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 5%;
+    }
+    header nav ul {
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 30px;
+    }
+    #home {
+        min-height: 70vh;
+        gap: 30px;
+    }
+    #home h1 {
+        font-size: 4.5rem;
+    }
+    section {
+        padding: 80px 10%;
+    }
+    #home p {
+        font-size: 1.5rem;
+        max-width: 600px;
+    }
+    .div_projetos {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
+        gap: 30px;
+        justify-content: center;
+    }
+    article img {
+        height: 250px;
+    }
+    form {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .conteudo_rodape {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.links_rodape {
+    flex-direction: row;
+    margin-top: 0;
+}
+}
