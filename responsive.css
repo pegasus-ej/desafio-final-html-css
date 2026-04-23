@@ -1,0 +1,110 @@
+@media (min-width: 768px){
+
+    nav{
+
+        display: flex;
+
+        gap: 20px;
+
+    }
+
+    nav a {
+
+        display: inline;
+
+    }
+
+
+    .about-me {
+
+        flex-direction: row;
+
+        align-items: flex-start;
+
+    }
+
+    .general, .skills{
+
+        width: 50%;
+
+    }
+
+
+    .basic-info{
+
+        gap: 40px;
+
+    }
+
+    .grid-projects{
+
+        justify-content: center;
+
+    }
+
+    .contact-me{
+
+        align-items: center;
+
+    }
+
+    #contactForm {
+
+        max-width: 500px;
+
+    }
+}
+
+@media (min-width: 1024px){
+
+    header{
+
+        padding: 30px 60px;
+
+    }
+
+    .basic-info {
+
+        flex-direction: row;
+
+        text-align: left;
+
+        gap: 80px;
+
+    }
+
+    .text{
+
+        max-width: 500px;
+
+    }
+
+
+    .about-me{
+
+        padding: 60px;
+
+        gap: 60px;
+
+    }
+
+    .grid-projects {
+
+        grid-template-columns: repeat(auto-fit, minmax(280px, 320px));
+
+    }
+
+    #contactForm{
+
+        max-width: 600px;
+
+        padding: 30px;
+
+    }
+
+    footer{
+
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+}
