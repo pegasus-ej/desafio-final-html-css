@@ -29,13 +29,18 @@
 
     <section class="basic-info">
 
-        <h1 id="home">Kauan Ortiz</h1>
-        <img id="photo" src="foto.png" alt="Foto">
-        <p>Desenvolvedor Full Stack</p>
+        <div class="text">
+
+            <h1 id="home">Kauan Ortiz</h1>
+            <p id="p1">Desenvolvedor Full Stack</p>
+
+        </div>
+        
+        <img id="photo" src="foto.png" alt="Foto">    
 
     </section>
 
-    <section class="about me">
+    <section class="about-me">
 
         <div class="general">
 
@@ -48,23 +53,19 @@
         </div>
 
         <div class="skills">
-
-            <div class="hard-skills">
+                 
                 <h2>Habilidades</h2>
 
                 <p>Possuo conhecimentos breves em desenvolvimento Back e Front-End e utilizo das seguintes
-                    tecnologias:</p>
+                    tecnologias:</p>            
 
-                <ul>
-
-                    <li>C</li>
-                    <li>Java</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Javascript</li>
-
-                </ul>
-            </div>
+                    <div class="logos">
+                        <img src="C_icon.png" alt="Logo C">
+                        <img src="Java_icon.png" alt="Logo Java">
+                        <img src="HTML5_icon.png" alt="Logo HTML5">
+                        <img src="CSS3_icon.png" alt="Logo CSS3">
+                        <img src="JS_icon.webp" alt="Logo JS">
+                    </div>
 
         </div>
 
@@ -83,7 +84,8 @@
                 <p>Este projeto visa desenvolver uma Pokédex utilizando a linguagem C. <br>
                 Suas principais funções são a listagem, cadastro e remoção de Pokémon da Pokédex.</p>
 
-                <button>Acessar o repositório</button>
+                <a href="https://github.com/kauanortiz/Projeto-Pokedex" target="_blank" class="btn">
+                Acessar repositório</a>
 
             </div>
 
@@ -91,10 +93,11 @@
 
                 <h3>Projeto de biblioteca em Java</h3>
 
-                <p>Este projeto visa desenvolver uma biblioteca utilizando a linguagem Java. <br>
+                <p>Este projeto visa desenvolver uma biblioteca utilizando a linguagem Java.
                 Suas principais funções são cadastro de itens, usuários e realização de empréstimos.</p>
 
-                <button>Acessar o repositório</button>
+                <a href="https://github.com/kauanortiz/Library" target="_blank" class="btn">
+                Acessar repositório</a>
 
             </div>
 
@@ -104,7 +107,7 @@
 
     <section class="contact-me">
 
-        <h3 id="contact">Fale comigo</h3>
+        <h2 id="contact">Fale comigo</h2>
 
         <div class="form">
             <form id="contactForm">
@@ -123,7 +126,7 @@
                 <textarea rows="5" id="message" name="message" required></textarea>
                 <br>
 
-                <button type="submit">Enviar</button>
+                <button type="submit" class="btn">Enviar</button>
 
             </form>
         </div>
@@ -133,24 +136,20 @@
 
     <footer>
 
-         <p>&copy; 2026 Minha Empresa. Todos os direitos reservados.</p>
-
          <p>Email: kauan.ortizcc@gmail.com</p>
          <p>Telefone: (43) 99999-9999</p>
 
         <p>Siga-me:
-
-            <button class="instagram-button">                
-                <a href="https://www.instagram.com/kauanortiz"><img src="Instagram_icon.png" alt="Logo do instagram" width="20"
-                    height="20"></a>
-            </button>
-
-            <button class="github-button">                
-                <a href="https://github.com/kauanortiz"><img src="Github_icon.png" alt="Logo do github" width="20"
-                    height="20"></a>
-            </button>  
-
+             
+            <a href="https://www.instagram.com/kauanortiz" target="_blank">
+                <img src="Instagram_icon.png" alt="Logo do instagram"></a>
+              
+             <a href="https://github.com/kauanortiz" target="_blank">
+                <img src="Github_icon.png" alt="Logo do github"></a>
+            
         </p>
+
+        <p>&copy; 2026 Minha Empresa. Todos os direitos reservados.</p>
 
     </footer>
     
