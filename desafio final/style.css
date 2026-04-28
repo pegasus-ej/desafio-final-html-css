@@ -112,31 +112,6 @@ h2 {
   box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 
-/* Formulário */
-.contact-form {
-  display: flex;
-  flex-direction: column;
-}
-
-.contact-form input,
-.contact-form textarea {
-  margin-bottom: 10px;
-  padding: 10px;
-}
-
-button {
-  background: var(--primary);
-  color: white;
-  padding: 10px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-button:hover {
-  opacity: 0.9;
-}
-
 /* Contato - Cards modernos */
 .contact-cards {
   display: grid;
