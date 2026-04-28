@@ -1,0 +1,218 @@
+:root {
+  --primary: #8b5cf6; /* roxo */
+  --background: #0f172a; /* fundo escuro */
+  --surface: #111827; /* cards */
+  --text: #e5e7eb; /* texto principal */
+  --muted: #9ca3af; /* texto secundário */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: var(--background);
+  color: var(--text);
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.section {
+  padding: 40px 0;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* Header (Flexbox) */
+.header {
+  background: #020617;
+  color: var(--text);
+  border-bottom: 1px solid #1f2937;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.banner {
+  position: relative;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  /* Fundo visual */
+  background: url('./assets/code.jpg') no-repeat center/cover;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.banner-content {
+  position: relative;
+  z-index: 1;
+}
+
+.banner-name {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.banner-title {
+  font-size: 22px;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+
+.banner-phrase {
+  font-size: 16px;
+  color: var(--muted);
+}
+
+/* Skills */
+.skills span {
+  display: inline-block;
+  background: #1f2937;
+  margin: 5px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  color: var(--text);
+}
+
+/* Projetos (Grid) */
+.projects {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.project {
+  background: var(--surface);
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #1f2937;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+/* Formulário */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+button {
+  background: var(--primary);
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Contato - Cards modernos */
+.contact-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+
+.contact-card {
+  display: block;
+  background: var(--surface);
+  padding: 20px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: var(--text);
+  border: 1px solid #1f2937;
+  transition: transform 0.2s, box-shadow 0.2s, border 0.2s;
+}
+
+.contact-card .icon {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.contact-card h3 {
+  margin-bottom: 5px;
+}
+
+.contact-card p {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+  border: 1px solid var(--primary);
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+  color: var(--muted);
+  border-top: 1px solid #1f2937;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.project {
+  overflow: hidden;
+}
+
+.project img {
+  transition: transform 0.3s;
+}
+
+.project:hover img {
+  transform: scale(1.05);
+}
+
+.banner-photo {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid var(--primary);
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.6);
+  transition: transform 0.3s;
+}
+
+.banner-photo:hover {
+  transform: scale(1.05);
+}
