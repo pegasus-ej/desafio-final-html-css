@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Portfólio</title>
-    <link rel="stylesheet" href="style.css"> <link rel="stylesheet" href="responsive.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Portfólio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
 </head>
+
 <body>
-      <!-- Header -->
+  <!-- Header -->
   <header class="header">
     <div class="container header-content">
       <h1 class="logo">Meu Portfólio</h1>
@@ -20,27 +23,33 @@
     </div>
   </header>
 
-   <!-- Banner -->
+  <!-- ! A tag 'main' é algo importante para sinalizar o conteúdo principal -->
+
+  <!-- Banner -->
   <section class="banner">
-  <div class="overlay"></div>
+    <div class="overlay"></div>
 
-  <div class="container banner-content">
-    <img src="./assets/foto1.jpeg" alt="Minha foto" class="banner-photo">
+    <div class="container banner-content">
+      <img src="./assets/foto1.jpeg" alt="Minha foto" class="banner-photo">
 
-    <h1 class="banner-name">Pedro Henrique Borges</h1>
-    <h2 class="banner-title">Trainee da Pegasus</h2>
-    <p class="banner-phrase">Estudante de ciência da computação</p>
-  </div>
-</section>
+      <h1 class="banner-name">Pedro Henrique Borges</h1>
+      <h2 class="banner-title">Trainee da Pegasus</h2>
+      <p class="banner-phrase">Estudante de ciência da computação</p>
+    </div>
+  </section>
 
   <!-- Sobre -->
   <section id="sobre" class="section">
     <div class="container">
       <h2>Sobre Mim</h2>
-      <p>Sou estudante de Ciência da Computação, apaixonado por tecnologia e sempre buscando aprender e evoluir na área. <br>
-Atualmente estou em processo trainee em uma Empresa Júnior da faculdade, desenvolvendo habilidades práticas e trabalho em equipe. <br>
-Também tenho grande interesse por música, que faz parte do meu dia a dia e da minha criatividade.
-</p>
+
+      <!-- ! Coloque 3 parágrafos diferentes em vez de usar <br> -->
+      <p>Sou estudante de Ciência da Computação, apaixonado por tecnologia e sempre buscando aprender e evoluir na área.
+        <br>
+        Atualmente estou em processo trainee em uma Empresa Júnior da faculdade, desenvolvendo habilidades práticas e
+        trabalho em equipe. <br>
+        Também tenho grande interesse por música, que faz parte do meu dia a dia e da minha criatividade.
+      </p>
     </div>
   </section>
 
@@ -58,52 +67,56 @@ Também tenho grande interesse por música, que faz parte do meu dia a dia e da 
       </div>
     </div>
   </section>
- 
-    <!-- Projetos -->
+
+  <!-- Projetos -->
+  <!-- ! 2 divs sem fechamento -->
   <section id="projetos" class="section">
     <div class="container">
       <h2>Projetos</h2>
       <div class="projects">
-     <div class="project">
-  <img src="./assets/projeto1.png" alt="Projeto 1">
-  <h3>Projeto - Loja Teste</h3>
-  <p>Desenvolvimento de uma loja virtual com HTML, CSS.</p>
-</div>
+        <div class="project">
+          <img src="./assets/projeto1.png" alt="Projeto 1">
+          <h3>Projeto - Loja Teste</h3>
+          <p>Desenvolvimento de uma loja virtual com HTML, CSS.</p>
+        </div>
+      </div>
+    </div>
   </section>
 
 
   <!-- Contato -->
+  <!-- ! Faltou o formulário -->
   <section id="contato" class="section">
-  <div class="container">
-    <h2>Contato</h2>
+    <div class="container">
+      <h2>Contato</h2>
 
-    <div class="contact-cards">
-      <a href="mailto:henrique11pedro98@gmail.com" class="contact-card">
-        <div class="icon">📧</div>
-        <h3>Email</h3>
-        <p>henrique11pedro98@gmail.com</p>
-      </a>
+      <div class="contact-cards">
+        <a href="mailto:henrique11pedro98@gmail.com" class="contact-card">
+          <div class="icon">📧</div>
+          <h3>Email</h3>
+          <p>henrique11pedro98@gmail.com</p>
+        </a>
 
-      <a href="https://wa.me/5543996198837" target="_blank" class="contact-card">
-        <div class="icon">💬</div>
-        <h3>WhatsApp</h3>
-        <p>(43) 99619-8837</p>
-      </a>
+        <a href="https://wa.me/5543996198837" target="_blank" class="contact-card">
+          <div class="icon">💬</div>
+          <h3>WhatsApp</h3>
+          <p>(43) 99619-8837</p>
+        </a>
 
-      <a href="https://www.linkedin.com/in/pedro-hpb/" target="_blank" class="contact-card">
-        <div class="icon">🔗</div>
-        <h3>LinkedIn</h3>
-        <p>Pedro Henrique Borges</p>
-      </a>
+        <a href="https://www.linkedin.com/in/pedro-hpb/" target="_blank" class="contact-card">
+          <div class="icon">🔗</div>
+          <h3>LinkedIn</h3>
+          <p>Pedro Henrique Borges</p>
+        </a>
 
-      <a href="https://github.com/Pedro-HPB" target="_blank" class="contact-card">
-        <div class="icon">💻</div>
-        <h3>GitHub</h3>
-        <p>Pedro-HPB</p>
-      </a>
+        <a href="https://github.com/Pedro-HPB" target="_blank" class="contact-card">
+          <div class="icon">💻</div>
+          <h3>GitHub</h3>
+          <p>Pedro-HPB</p>
+        </a>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
   <!-- Footer -->
   <footer class="footer">
@@ -111,4 +124,5 @@ Também tenho grande interesse por música, que faz parte do meu dia a dia e da 
   </footer>
 
 </body>
+
 </html>
