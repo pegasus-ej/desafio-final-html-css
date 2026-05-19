@@ -1,0 +1,29 @@
+@media (min-width: 768px) {
+  .contact-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .header-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .contact-cards {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .banner-photo {
+    width: 180px;
+    height: 180px;
+  }
+}
