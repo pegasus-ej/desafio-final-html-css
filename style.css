@@ -39,6 +39,7 @@ body
     line-height: 1.7;
 }
 
+/* ! Não há nenhuma tag img no HTML */
 img
 {
     max-width: 100%;
@@ -68,6 +69,7 @@ a
     backdrop-filter: blur(12px);
     box-shadow: 0 4px 20px rgba(15, 23, 42, 0.25);
 }
+
 
 .logo 
 {
@@ -216,7 +218,7 @@ a
 {
     max-width: 820px;
     margin: 0 auto;
-    text-align: center;
+    text-align: center; /* * Na minha opinião fica melhor justify */
     color: var(--cinza-600);
     font-size: 1.05rem;
 }
