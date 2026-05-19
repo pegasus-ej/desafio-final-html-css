@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Meu Portfólio
+    </title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <Lucas 
+                class="dev">
+            </Lucas>
+        </div>
+
+        <nav class="nav">
+            <a href="#sobre">Sobre</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+
+        <a href="#contato" class="btn-header">Fale comigo</a>
+    </header>
+
+    <main>
+
+        <section class="banner">
+
+            <div class="banner-content">
+
+                <h1> Olá, eu sou Lucas </h1>
+
+                <p>
+                    Estudante de Ciência da Computação e desenvolvedor em formação. 
+                </p>
+
+                <a href="#projetos" class="btn">Ver projetos</a>
+
+            </div>
+
+        </section>
+
+        <section id="sobre" class="sobre section">
+
+            <h2> Sobre mim </h2>
+
+            <p>
+                Aqui eu deveria escrever coisas sobre mim mas eu nao tenho muita criatividade alem de que no momento eu estou sentindo muita dor por causa de um maldito dente que resolveu nascer. Passei essa semana sentindo dores e quando arranquei o dente, senti mais dores e começei a ter febre, e agora estou aqui, com a boca toda inchada, tentando escrever um texto sobre mim, mas eu nao tenho criatividade pra isso (ou pelo menos nao estou fazendo do jeito que deveria ser, acredito eu), entao vou falar sobre o dente mesmo. O dente era um siso que começou a nascer e parou a um bom tempo. Essa semana ele voltou a nascer acabou me causando muita dor, entao eu decidi arrancar ele, mas a cirurgia foi complicada porque o dente estava muito difícil de remover (as raizes deles estavam curvadas e parte dele estava preso em baixo do osso da mandibula), eles tiveram que cerrar o dente em 3 partes antes de arranca-lo. Agora estou sofrendo as consequências. Enfim, espero que esse texto tenha sido interessante para vocês. 
+                
+            </p>
+
+            <p>
+                 OBS: Eu escrevi boa parte do paragrafo anterior e uma parte foi sugestao do VS code que eu so tive que adaptar a minha realidade. Nao sei se podia fazer isso mas qualquer coisa me avisa que faço alteração. E eu deixei bem espaçado as linhas do codigo para facilitar a leitura para mim mesmo, mas se quisere que eu deixe mais compacto, me avise que eu faço isso tambem (não sei se isso é errado ou não).
+            </p>
+        
+        </section>
+
+        <section id="habilidades" class="habilidades section">
+
+            <h2> Minhas habilidades </h2>
+
+            <div class="habilidades-lista">
+
+                <article class="habilidade-card">
+
+                    <i class="fa-brands fa-html5"></i>
+
+                    <h3> HTML </h3>
+
+                    <p> 
+                        Estruturação de páginas com HTML semântico. 
+                    </p>
+
+                </article>
+
+                <article class="habilidade-card">
+
+                    <i class="fa-brands fa-css3-alt"></i>
+
+                    <h3> CSS </h3>
+
+                    <p>
+                        Estilização, Flexbox, Grid e responsividade.
+                    </p>
+
+                </article>
+
+                <article class="habilidade-card">
+
+                    <i class="fa-brands fa-git-alt"></i>
+
+                    <h3> Git </h3>
+
+                    <p>
+                        Controle de versão e organização de projetos.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <section id="projetos" class="projetos section">
+
+            <h2> Meus projetos </h2>
+
+            <div class="projetos-grid">
+
+                <article class="projeto-card">
+
+                    <i class="fa-solid fa-laptop-code"></i>
+
+                    <h3> Site Institucional </h3>
+
+                    <p>
+                        Projeto simples usando HTML semântico e CSS responsivo.
+                    </p>
+
+                    <a href="#"> Ver projeto </a>
+
+                </article>
+
+                <article class="projeto-card">
+
+                    <i class="fa-solid fa-table"></i>
+
+                    <h3> Tabela de Alunos </h3>
+
+                    <p>
+                        Tabela em HTML com organização de dados e estilização.
+                    </p>
+
+                    <a href="#"> Ver projeto </a>
+
+                </article>
+
+                <article class="projeto-card">
+
+                    <i class="fa-solid fa-user-plus"></i>
+
+                    <h3> Cadastro de Alunos </h3>
+
+                    <p>
+                        Formulário HTML com vários tipos de input.
+                    </p>
+
+                    <a href="#"> Ver projeto </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <section id="contato" class="contato section">
+
+            <h2>Contato</h2>
+
+            <form action="#" method="post" class="formulario">
+
+                <label for="nome">
+                    Nome
+                </label>
+
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+                <label for="email">
+                    E-mail
+                </label>
+
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+                <label for="mensagem">
+                    Mensagem
+                </label>
+
+                <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem" required></textarea>
+
+                <button type="submit">
+                    Enviar mensagem
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+
+        <p>
+            Todos os direitos reservados.
+        </p>
+
+        <div class="social">
+
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
